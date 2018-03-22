@@ -2,18 +2,20 @@ body {
     margin: 50px;
     background-color: rgb(255, 145, 0);
     font-family: arial;
+    font-size: 1.4em;
 }
 
 header {
-    font-family: impact;
+    font-family: baskerville old face, arial;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e3/Flag_of_Mexico_%281916-1934%29.svg");
     border: 1px solid white;
+    text-align: center;
+    font-size: .8em;
 }
 
 main {
     border: 1px solid white;
 }
-
 main,
 footer {
 	background-color: rgb(252, 191, 99);
@@ -81,7 +83,7 @@ h1 {
 
 footer {
     text-align: center;
-
+    font-size: .6em;
 
 }
 
