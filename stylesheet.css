@@ -1,96 +1,95 @@
 body {
-	width: 100%;
-	max-width: 1024px;
-	margin: 0 auto;
-	background-color: #999;
-	font-size: 62.5%;
-}
-
-header,
-main,
-footer {
-	background-color: #dde;
-	font-size: 1.6em;
+    margin: 50px;
+    background-color: rgb(255, 145, 0);
+    font-family: arial;
 }
 
 header {
-	padding: 1.875em 0;
+    font-family: impact;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e3/Flag_of_Mexico_%281916-1934%29.svg");
+    border: 1px solid white;
 }
 
-header h1 {
-	text-align: center;
+main {
+    border: 1px solid white;
 }
 
-h1, h2, h3 {
-	margin: 0;
+main,
+footer {
+	background-color: rgb(252, 191, 99);
+    font-size: 1em;
 }
 
 h1 {
-	font-size: 2.5em;
+    align-self: center;
 }
 
-main h2 {
-	padding: 0.625em 0 0.625em 0.625em;
+#intro {
+    height: 400px;
 }
 
-section {
-	margin: 1.875em 0;
+#intro_photo {
+    float: right;
+    height: auto; 
+    width: 300px;
+    height: 400px;
+    border: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
 }
 
-section:first-child {
-	margin-top: 0;
+#loma_bonita {
+    height: 200px;
 }
 
-section:last-child {
-	margin-bottom: 0;
+#loma_photo {
+    float: right;
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 200px;
+    border-radius: 8px;
+    border: 1px solid white;
 }
 
-nav ul {
-	text-align: center;
-	padding: 0;
+#pitillal {
+    height: 200px;
 }
 
-nav ul li {
-	display: inline-block;
-	margin-right: 1em;
-	font-size: 0.75em;
+#pitillal_photo {
+    float: right;
+    height: 200px; 
+    width: auto; 
+    max-width: 300px; 
+    border-radius: 8px;
+    border: 1px solid white;
 }
 
-p {
-	padding: 1.25em;
+#aurora {
+    height: 200px;
 }
 
-figure {
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-
-figcaption {
-	font-style: italic;
+#aurora_photo {
+    float: right;
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 200px;
+    border-radius: 8px;
+    border: 1px solid white;
 }
 
 footer {
-	text-align: center;
-	padding: 3em;
+    text-align: center;
+
+
 }
 
-footer p {
-	display: inline-block;
+#space {
+    background-color: rgb(255, 145, 0);
+    color: rgb(255, 145, 0);
 }
 
-img {
-	width: 100%;
-	max-width: 100%;
-}
-
-@media screen and (max-width: 680px) {
-	nav ul li {
-		margin: 1em 0;
-		display: block;
-		font-size: 1em;
-	}
-	body {
-		font-size: 50%;
-	}
+section {
+    padding: 20px;
 }
