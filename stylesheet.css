@@ -13,6 +13,9 @@ header {
     font-size: .8em;
 }
 
+.place {
+    height: 200px;
+}
 main {
     border: 1px solid white;
 }
@@ -40,10 +43,6 @@ h1 {
     border: 1px solid white;
 }
 
-#loma_bonita {
-    height: 200px;
-}
-
 #loma_photo {
     float: right;
     height: auto; 
@@ -54,10 +53,6 @@ h1 {
     border: 1px solid white;
 }
 
-#pitillal {
-    height: 200px;
-}
-
 #pitillal_photo {
     float: right;
     height: 200px; 
@@ -65,10 +60,6 @@ h1 {
     max-width: 300px; 
     border-radius: 8px;
     border: 1px solid white;
-}
-
-#aurora {
-    height: 200px;
 }
 
 #aurora_photo {
@@ -85,11 +76,6 @@ footer {
     text-align: center;
     font-size: .6em;
 
-}
-
-#space {
-    background-color: rgb(255, 145, 0);
-    color: rgb(255, 145, 0);
 }
 
 section {
